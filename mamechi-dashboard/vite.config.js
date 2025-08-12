@@ -3,8 +3,6 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/my-mamechi-2.0/', // 여기에 실제 저장소 이름 입력
-  build: {
-    outDir: 'dist',
-  },
+  base: '/my-mamechi-2.0/', // 리포 이름 그대로
+  build: { outDir: 'dist' },
 });
